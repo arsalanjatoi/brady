@@ -1,0 +1,161 @@
+@media screen and ( max-width: 991px ){
+    ._top { display: none; }
+    .navbar-nav {
+        padding: 30px 0;
+    }
+    .nav-item {
+        border-bottom: 1px solid #a7192f;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .nav-item a { display: block; }
+    .mb-social { display: block; text-align: right; }
+    .mb-social li {
+        display: inline;
+        list-style: none;
+        margin-right: 5px;
+    }
+    .mb-social li:last-child { margin-right: 0; }
+    .mb-social li a {
+        background: #a7192f;
+        color: #ffffff;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 20px;
+        border: 1px solid transparent;
+        transition: all .5s ease;
+    }
+    .mb-social li a:hover {
+        color: #a7192f;
+        border: 1px solid #a7192f;
+        background: transparent;
+    }
+    h5.mt-24 { margin-top: 7px; }
+    .navbar-toggler{
+        border: 0;
+    }
+}
+
+@media screen and ( max-width: 768px ){
+    .row-104 {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+    .row-104 [class^="col-"] {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .m-heading:after {
+        margin-left: -66px;
+    }
+    ._col {
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    .client { margin-bottom: 60px; }
+    .art-title { margin-bottom: 10px; }
+    .cat-heading { padding-top: 20px; }
+    article p { min-height: initial; text-align: initial; }
+    article { margin-bottom: 50px; }
+    ._associate_members, ._associate_members .text-right { text-align: center !important; }
+    ._associate_members img { margin-bottom: 15px; }
+    ._inspection .inspection-text{padding:0;}
+    ._hero-content h1{
+        font-size: 20px;
+    }
+    ._hero-content p{
+        font-size: 14px;
+    }
+    ._awesome-content{
+        margin-top: 30px;
+    }
+    ._team-member{
+        margin-bottom: 15px;
+    }
+    ._our-team .col-md-3:nth-child(n+5){
+        margin-top: 0px;
+    }
+    .contact-form{
+        margin-top: 30px;
+    }
+}
+
+@media screen and ( max-width: 480px ){
+    .move-top { right: 20px; bottom: 20px; }
+    .submit-btn {
+        margin: 0px auto;
+        display: block;
+        margin-top: 20px;
+    }
+    ._inspection p { padding: 0; }
+    ._maintenance p br, ._connectivity p br { display: none; }
+    header { padding: 0 20px; }
+    /*body { overflow-x: hidden; }*/
+    ._maintenance, ._connectivity { padding: 30px 0 44px 0; }
+    .row-104 {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .row-104 [class^="col-"] {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    ._col {
+        width: 100%;
+    }
+    .address li {
+        margin-bottom: 15px;
+    }
+    .captcha { width: 100%; }
+    h5.mt-24 {
+        margin-top: -1px;
+    }
+    .navbar-brand{
+        display: block;
+    }
+    .mb-social{
+        text-align: center;
+    }
+    .navbar-collapse{
+        padding-bottom: 30px;
+    }
+    .carousel-item img{
+        height: 500px;
+    }
+    .navbar-brand p{
+        margin-left: 0;
+    }
+    ._hero-section img{
+        height: 400px;
+    }
+    ._hero-content h1{
+        line-height: 1.5;
+    }
+    ._hero-content h1 br{
+        display: none;
+    }
+    ._video-title{
+        display: none;
+    }
+    ._hero-section-content h1{
+        font-size: 24px;
+    }
+    ._electrical-service-banner .line-heading:after{
+        right: 0;
+    }
+    ._video-sec img{
+        height: 300px;
+    }
+    ._maintenance-content h3:after{
+        right: -10px;
+    }
+    .structure-case-study{
+        padding: 30px 15px !important;
+        padding-bottom: 0;
+    }
+    .responsive-pad-top{
+        padding-top: 30px;
+    }
+}
